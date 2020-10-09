@@ -55,19 +55,7 @@ public class Campo {
 			if (minado) {
 				throw new ExplosaoException();
 			}
-
-			if (vizinhancaSegura()) {
-				// aqui ele vai abrir todos meus vizinhos caso
-				// a vizinhanca esteja segura
-				vizinhos.forEach(v -> v.abrir());
-			}
 		}
 		return false;
-	}
-
-	boolean vizinhancaSegura() {
-		// se nenhum vizinho der Match desse predicado significa
-		// a vizinhanca e segura
-		return vizinhos.stream().noneMatch(v -> v.minado);
 	}
 }

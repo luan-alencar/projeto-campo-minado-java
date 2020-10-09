@@ -55,10 +55,8 @@ public class Campo {
 			if (minado) {
 				throw new ExplosaoException();
 			}
-
+			
 			if (vizinhancaSegura()) {
-				// aqui ele vai abrir todos meus vizinhos caso
-				// a vizinhanca esteja segura
 				vizinhos.forEach(v -> v.abrir());
 			}
 		}
