@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CampoTeste" project="campo-minado" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="david.augusto.luan.CampoTeste" time="0.03" displayname="CampoTeste" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]">
+    <testcase name="testVizinhoEmBaixo" classname="david.augusto.luan.CampoTeste" time="0.015" displayname="testVizinhoEmBaixo()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testVizinhoEmBaixo()]"/>
+    <testcase name="testAlternarMarcacao" classname="david.augusto.luan.CampoTeste" time="0.001" displayname="testAlternarMarcacao()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testAlternarMarcacao()]"/>
+    <testcase name="testVizinhoDistancia2" classname="david.augusto.luan.CampoTeste" time="0.001" displayname="testVizinhoDistancia2()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testVizinhoDistancia2()]"/>
+    <testcase name="testAbrirNaoMinado" classname="david.augusto.luan.CampoTeste" time="0.001" displayname="testAbrirNaoMinado()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testAbrirNaoMinado()]"/>
+    <testcase name="testVizinhoDistanciaEmCima" classname="david.augusto.luan.CampoTeste" time="0.002" displayname="testVizinhoDistanciaEmCima()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testVizinhoDistanciaEmCima()]"/>
+    <testcase name="testValorPadraoAtributoMarcacado" classname="david.augusto.luan.CampoTeste" time="0.001" displayname="testValorPadraoAtributoMarcacado()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testValorPadraoAtributoMarcacado()]"/>
+    <testcase name="testAbrirNaoMinadoNaoMarcado" classname="david.augusto.luan.CampoTeste" time="0.001" displayname="testAbrirNaoMinadoNaoMarcado()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testAbrirNaoMinadoNaoMarcado()]"/>
+    <testcase name="testVizinhoDistanciaDireita" classname="david.augusto.luan.CampoTeste" time="0.001" displayname="testVizinhoDistanciaDireita()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testVizinhoDistanciaDireita()]"/>
+    <testcase name="testVizinhoRealDistancia" classname="david.augusto.luan.CampoTeste" time="0.007" displayname="testVizinhoRealDistancia()" uniqueid="[engine:junit-jupiter]/[class:david.augusto.luan.CampoTeste]/[method:testVizinhoRealDistancia()]"/>
+  </testsuite>
+</testrun>

@@ -45,7 +45,7 @@ public class Campo {
 		}
 	}
 
-	boolean abrir() {
+	public boolean abrir() {
 		// se o campo nao estiver aberto nem marcado ent pode aplicar
 		// a logica para abrir o campo
 		if (!aberto && !marcado) {
@@ -72,7 +72,15 @@ public class Campo {
 		return vizinhos.stream().noneMatch(v -> v.minado);
 	}
 
+	public void minar() {
+		minado = true;
+	}
+
 	public boolean isMarcado() {
 		return marcado;
+	}
+
+	public boolean isAberto() {
+		return aberto;
 	}
 }
