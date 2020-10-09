@@ -40,23 +40,4 @@ public class CampoTeste {
 		assertTrue(resultado);
 	}
 
-	@Test
-	void testVizinhoDistancia2() {
-		Campo vizinho = new Campo(2, 2);
-		boolean resultado = campo.adicionarVizinho(vizinho);
-
-		assertTrue(resultado);
-	}
-
-	@Test
-	void testValorPadraoAtributoMarcacado() {
-		assertFalse(campo.isMarcado());
-	}
-
-	@Test
-	void testAlternarMarcacao() {
-		campo.alternarMarcacao();
-		assertTrue(campo.isMarcado());
-	}
-
 }

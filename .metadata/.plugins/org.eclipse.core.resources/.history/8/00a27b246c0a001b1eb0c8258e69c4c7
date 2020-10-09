@@ -38,7 +38,7 @@ public class Campo {
 		return false;
 	}
 
-	public void alternarMarcacao() {
+	void alternarMarcacao() {
 		if (!aberto) {
 			// se tiver marcado ele vai negar
 			marcado = !marcado;

@@ -55,8 +55,7 @@ public class CampoTeste {
 
 	@Test
 	void testAlternarMarcacao() {
-		campo.alternarMarcacao();
-		assertTrue(campo.isMarcado());
+		assertFalse(campo.isMarcado());
 	}
 
 }

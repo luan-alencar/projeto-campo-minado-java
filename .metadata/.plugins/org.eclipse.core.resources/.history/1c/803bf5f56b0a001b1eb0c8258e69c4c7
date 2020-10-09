@@ -49,14 +49,11 @@ public class CampoTeste {
 	}
 
 	@Test
-	void testValorPadraoAtributoMarcacado() {
-		assertFalse(campo.isMarcado());
-	}
-
-	@Test
 	void testAlternarMarcacao() {
-		campo.alternarMarcacao();
-		assertTrue(campo.isMarcado());
+		Campo vizinho = new Campo(3, 4);
+		boolean resultado = campo.adicionarVizinho(vizinho);
+
+		assertFalse(resultado);
 	}
 
 }

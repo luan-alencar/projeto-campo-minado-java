@@ -42,21 +42,10 @@ public class CampoTeste {
 
 	@Test
 	void testVizinhoDistancia2() {
-		Campo vizinho = new Campo(2, 2);
+		Campo vizinho = new Campo(3, 4);
 		boolean resultado = campo.adicionarVizinho(vizinho);
 
 		assertTrue(resultado);
-	}
-
-	@Test
-	void testValorPadraoAtributoMarcacado() {
-		assertFalse(campo.isMarcado());
-	}
-
-	@Test
-	void testAlternarMarcacao() {
-		campo.alternarMarcacao();
-		assertTrue(campo.isMarcado());
 	}
 
 }
