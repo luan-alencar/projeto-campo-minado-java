@@ -1,0 +1,5 @@
+package david.augusto.luan.excecao;
+
+public class ExplosaoException extends RuntimeException{
+	
+}

@@ -3,8 +3,6 @@ package david.augusto.luan.modelo;
 import java.util.ArrayList;
 import java.util.List;
 
-import david.augusto.luan.excecao.ExplosaoException;
-
 public class Campo {
 	private final int linha;
 	private final int coluna;
@@ -40,23 +38,7 @@ public class Campo {
 
 	void alternarMarcacao() {
 		if (!aberto) {
-			// se tiver marcado ele vai negar
-			marcado = !marcado;
+			marcador = !marcado;
 		}
-	}
-
-	boolean abrir() {
-		// se o campo nao estiver aberto nem marcado ent pode aplicar
-		// a logica para abrir o campo
-		if (!aberto && !marcado) {
-			aberto = true;
-
-			// se ele entrar nesse campo significa q o jogo vai acabar
-			if (minado) {
-				throw new ExplosaoException();
-			}
-
-		}
-		return false;
 	}
 }
